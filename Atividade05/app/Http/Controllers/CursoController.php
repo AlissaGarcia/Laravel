@@ -26,4 +26,18 @@ class CursoController extends Controller
 
         return view('cursos.listagem', compact('cursos'));
     }
+    public function show($id)
+    {
+        return "Curso selecionado: ID " . $id;
+    }
+
+    public function formulario()
+    {
+        return view('cursos.formulario');
+    }
+
+    public function store(Request $request)
+    {
+        return "Curso cadastrado: " . $request->nome;
+    }
 }
