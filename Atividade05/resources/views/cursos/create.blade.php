@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Curso</title>
+</head>
+<body>
+
+    <h1>Cadastro de Curso</h1>
+
+</body>
+</html>
